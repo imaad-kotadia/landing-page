@@ -5,7 +5,7 @@
 body {
     display: flex;
     flex-direction: column;
-    width: auto;
+
     min-height: 100vh;
     margin: 0;
 }
@@ -22,6 +22,8 @@ body {
     background-color: #1F2937;
     display: flex;
     padding: 100px 120px;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-intro {
@@ -94,7 +96,7 @@ a {
 .info-container {
     display: flex;
     gap: 16px;
-    
+    flex-wrap: wrap;
 }
 
 .info-img {
@@ -114,6 +116,7 @@ p {
     color: #6a6b6e;
     text-align: center;
     padding: 8px;
+    width: 120px;
 }
 
 .quote-container {
